@@ -1,0 +1,123 @@
+/* font style */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+/* ------common style or utilities ----*/
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  background-color: #ffffff;
+  width: 1050px;
+  margin-bottom: 158px;
+}
+/* ---------top-banner section start--------*/
+.top-banner-container {
+  background-color: #2d25a0;
+}
+.top-banner {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 70px;
+  width: 1440px;
+  height: 677px;
+}
+.banner-heading {
+  margin-top: 207px;
+  margin-left: 100px;
+  font-weight: bold;
+  font-size: 30px;
+}
+.banner-image {
+  margin-top: 153px;
+  margin-left: 300px;
+}
+.banner-image img {
+  width: 556.01px;
+  height: 438px;
+}
+/* ----------top-banner section end---------*/
+/* --- top football players syles start --- */
+
+.foodball-players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 30px;
+}
+
+.player {
+  overflow-wrap: break-word;
+  margin-top: 27px;
+  margin-left: 30px;
+  margin-bottom: 27px;
+  margin-right: 27px;
+  background-color: #ffffff;
+  padding: 15px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player img {
+  width: 300px;
+  height: 256px;
+}
+/* --- top football players syles end --- */
+
+/* --- highlights syles start --- */
+.highlights {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.highlights-blogs {
+  margin-right: 78px;
+}
+.highlights-blogs h2 {
+  font-size: 43px;
+  line-height: 60px;
+}
+.beutifull-button {
+  font-size: 16px;
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #e02c6d;
+  padding: 10px 24px;
+}
+.highlights-image img {
+  width: 567px;
+  height: 427px;
+}
+/* --- highlights syles end --- */
+/* ----footer section start----- */
+.footer-eliment {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo img {
+  width: 483.87px;
+  height: 110px;
+}
+.fab {
+  margin: 5px;
+}
+/* ----footer section end----- */
+
+/*---------------Media Queries---------------*/
+
+/*-----------mobile diviase----------*/
+@media only screen and (max-width:688px) {
+     .container{
+        width:100%;
+    }
+    .top-banner-container{
+        background-color: #e02c6d;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
